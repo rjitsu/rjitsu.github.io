@@ -102,6 +102,13 @@ main.writing{
     
 }
 
+@media (max-width:600px){
+    main.about{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 100%;
+    }
+}
 
 .article-list li{
     margin-bottom: .5em;
