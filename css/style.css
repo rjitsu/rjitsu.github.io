@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Serif', serif;
+    background: #ccc9c9;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1,h2,h3,h4,.navbar a{
+    font-family: 'Playfair Display', serif;
+}
+
+/* main navbar */
+.navbar{
+    display: flex;
+    list-style-type: none;
+    width:100%;
+    font-size: 1.2em;
+    justify-content: flex-end;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar a:hover{
+    color:darkslateblue;
+}
+
+.navbar a:active{
+  color: #fc0;
+}
+
+.nav-item{
+    margin:1em;
+}
+.title{
+  position: absolute;
+  left:1.2em;
+  font-size: 1.5em;
+  background: rgba(130,120,120,15%);
+  padding: .3em;
+  font-style: italic;
+}
+
+main.index,main.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img.avatar{
+    height:15em;
+    width:15em;
+    margin:5em;
+    position: relative;
+}
+
+.avatar:hover{
+   animation: spin 1s ease forwards;
+}
+
+@keyframes spin{
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+/* about page*/
+.tagline{
+    font-size: 3em;
+    margin-top:2em;
+}
+
+span{
+    color:indianred;
+}
+
+.about-me-text{
+    width: 50ch;
+    margin:2em;
+    font-size: 1.4em;
+}
+
+.about-me-img{
+    height: 25em;
+    margin:2em;
+}
+
+main.writing{
+    display: grid;
+    padding: 1em;
+    
+}
+
+
+.article-list li{
+    margin-bottom: .5em;
+}
+
+.article-list li::before{
+    content: "";
+    height:2px;
+    width:1em;
+    background:darkslategray;
+    position: absolute;
+    top:50%;
+    left:-1.2em;
+}
