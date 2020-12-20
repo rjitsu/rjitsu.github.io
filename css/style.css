@@ -138,6 +138,9 @@ main.writing{
     }
 }
 
+main.writing{
+  font-size: 1.4em;
+}
 .article-list li{
     margin-bottom: .5em;
 }
