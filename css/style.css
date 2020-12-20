@@ -156,5 +156,35 @@ main.writing{
     left:-1.2em;
 }
 
+/* Work Page */
 
-  
+main.work{
+    padding:1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-template-areas: 
+    "heading heading"
+    "card card";
+}
+.work-heading{
+    font-size: 1.5em;
+    margin:1em;
+    grid-area: heading;
+}
+.project-card{
+    width:35em;
+    background:lavender;
+    padding:1em;
+    margin:1em;
+    transition: transform ease 0.3s,background ease 0.3s;
+}
+.project-card:hover{
+    transform: translateY(-8px);
+    background: rgba(130,120,120,15%);
+}
+
+.project-card img{
+    height:12em;
+}
+
