@@ -62,7 +62,18 @@ img.avatar{
     height:15em;
     width:15em;
     margin:5em;
+    margin-left:10em;
     position: relative;
+    animation: elevate 1s ease infinite;
+}
+
+@keyframes elevate{
+    from,to{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(1em);
+    }
 }
 
 .avatar:hover{
@@ -103,10 +114,27 @@ main.writing{
 }
 
 @media (max-width:600px){
-    main.about{
+    body{
+        font-size: 14px;
+    }
+
+    img.avatar{
+      margin:0;
+    }
+    main.about, main.index{
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto 1fr;
         grid-template-columns: 100%;
+        place-items: center;
+    }
+
+    .about-me-img{
+        height: 15em;
+        margin:2em;
+    }
+
+    .about-me-text{
+      width: 90%;
     }
 }
 
@@ -123,3 +151,6 @@ main.writing{
     top:50%;
     left:-1.2em;
 }
+
+
+  
