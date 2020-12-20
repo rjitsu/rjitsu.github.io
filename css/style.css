@@ -136,6 +136,15 @@ main.writing{
     .about-me-text{
       width: 90%;
     }
+
+    main.work{
+        padding:1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "heading"
+        "card";
+    }
 }
 
 main.writing{
@@ -162,7 +171,6 @@ main.work{
     padding:1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
     grid-template-areas: 
     "heading heading"
     "card card";
