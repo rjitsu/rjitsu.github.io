@@ -196,3 +196,8 @@ main.work{
     height:12em;
 }
 
+.card-link{
+    text-decoration: none;
+    color: black
+}
+
