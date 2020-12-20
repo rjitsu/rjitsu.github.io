@@ -145,6 +145,7 @@ main.writing{
         "heading"
         "card";
     }
+
 }
 
 main.writing{
@@ -201,3 +202,10 @@ main.work{
     color: black
 }
 
+
+/* contact page */
+
+main.contact{
+    padding: 1em;
+    margin: 1em;
+}
