@@ -159,7 +159,9 @@ main.work{
     transform: translateY(-8px);
     background: rgba(130,120,120,15%);
 }
-
+.date{
+    color:rgb(131, 125, 125)
+}
 .project-card img{
     height:12em;
 }
