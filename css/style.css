@@ -113,40 +113,6 @@ main.writing{
     
 }
 
-@media (max-width:600px){
-    body{
-        font-size: 14px;
-    }
-
-    img.avatar{
-      margin:0;
-    }
-    main.about, main.index{
-        display: grid;
-        grid-template-rows: auto 1fr;
-        grid-template-columns: 100%;
-        place-items: center;
-    }
-
-    .about-me-img{
-        height: 15em;
-        margin:2em;
-    }
-
-    .about-me-text{
-      width: 90%;
-    }
-
-    main.work{
-        padding:1em;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "heading"
-        "card";
-    }
-
-}
 
 main.writing{
   font-size: 1.4em;
@@ -171,7 +137,7 @@ main.writing{
 main.work{
     padding:1em;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(421px,1fr));
     grid-template-areas: 
     "heading heading"
     "card card";
@@ -182,9 +148,10 @@ main.work{
     grid-area: heading;
 }
 .project-card{
-    width:35em;
+    
     background:lavender;
     padding:1em;
+    grid-area: card;
     margin:1em;
     transition: transform ease 0.3s,background ease 0.3s;
 }
@@ -203,9 +170,51 @@ main.work{
 }
 
 
+
 /* contact page */
 
 main.contact{
     padding: 1em;
     margin: 1em;
+}
+
+main.contact p{
+ font-size: 1.4em;
+}
+
+
+
+@media (max-width:600px){
+    body{
+        font-size: 14px;
+    }
+
+    img.avatar{
+      margin:0;
+    }
+    main.about, main.index{
+        display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 100%;
+        place-items: center;
+    }
+
+    .about-me-img{
+        height: 15em;
+        margin:2em;
+    }
+
+    .about-me-text{
+      width: 90%;
+    }
+
+
+    main.work{
+        padding:1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "heading"
+        "card";
+    }
 }
