@@ -58,6 +58,12 @@ main.index,main.about{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.tagline{
+    font-size: 3em;
+    margin-top:2em;
+    margin:2em;
+}
 img.avatar{
     height:15em;
     width:15em;
@@ -87,10 +93,7 @@ img.avatar{
 }
 
 /* about page*/
-.tagline{
-    font-size: 3em;
-    margin-top:2em;
-}
+
 
 span{
     color:indianred;
