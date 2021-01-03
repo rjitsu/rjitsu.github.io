@@ -91,7 +91,9 @@ main.writing{
     display: grid;
     padding: 1em;
     grid-template-columns: minmax(1em, 1fr) minmax(auto,50ch) minmax(1em, 1fr);
-    grid-template-areas: "... main cool";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "... main ...."
+    ".. links .";
 }
 
 main.writing p{
@@ -99,7 +101,7 @@ main.writing p{
 }
 
 .article-list{
-    grid-area: cool;
+    grid-area: links;
 }
 
 /* Work Page */
