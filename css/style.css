@@ -186,7 +186,7 @@ canvas{
 /* media queries */
 @media (max-width:600px){
     body{
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     main.about{
@@ -225,8 +225,6 @@ canvas{
         grid-template-columns: 100%;
     }    
 
-    main.writing,main.about,main.work,main.contact{
-        font-size:1.3rem;
-    }
+    
 }
 
