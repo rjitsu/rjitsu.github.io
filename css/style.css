@@ -226,7 +226,7 @@ canvas{
     }    
 
     main.writing,main.about,main.work,main.contact{
-        font-size:1.3em;
+        font-size:1.3rem;
     }
 }
 
