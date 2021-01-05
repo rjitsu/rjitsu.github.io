@@ -186,14 +186,7 @@ canvas{
 /* media queries */
 @media (max-width:600px){
     body{
-        font-size: 14px !important;
-    }
-
-    main.about{
-        display: grid;
-        grid-template-rows: auto 1fr;
-        grid-template-columns: 100%;
-        place-items: center;
+        font-size: 8px !important;
     }
 
     .about-me-img{
@@ -205,26 +198,10 @@ canvas{
       width: 90%;
     }
 
-    main.work{
-        padding:1em;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "heading"
-        "card";
-    }
-
     .container-painting{
         height:40%;
         width: 70%;
     }
-
-    main.index{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 100%;
-    }    
-
-    
+   
 }
 
