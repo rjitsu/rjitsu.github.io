@@ -224,5 +224,9 @@ canvas{
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 100%;
     }    
+
+    main.writing,main.about,main.work,main.contact{
+        font-size:1.3em;
+    }
 }
 
