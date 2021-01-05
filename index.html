@@ -1,82 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Portfolio</title>
 </head>
+
 <body>
-    <div class="container">
-        <nav>
-            
-            <ul class="navbar">
-                <li class="nav-item title"><a href="/"> Portfolio</a></li>
-                <li class="nav-item about-me"><a href="./about.html"> .about-me</a></li>
-                <li class="nav-item"><a href="./writing.html"> .writing</a></li>
-                <li class="nav-item"><a href="./work.html"> .work</a></li>
-                <li class="nav-item"><a href="./contact.html"> .contact</a></li>
-            </ul>
-        </nav>
-       
+  <div class="container">
+    <nav>
 
-        <main class="index">
+      <ul class="navbar">
+        <li class="nav-item title"><a href="/"> Portfolio</a></li>
+        <li class="nav-item about-me"><a href="./about.html"> .about-me</a></li>
+        <li class="nav-item"><a href="./writing.html"> .writing</a></li>
+        <li class="nav-item"><a href="./work.html"> .work</a></li>
+        <li class="nav-item"><a href="./contact.html"> .contact</a></li>
+      </ul>
+    </nav>
 
-            <div class="sun"></div>
-<div class="water"></div>
-<div class="ground"></div>
-<div class="ground2"></div>
-            
-            <h1 class="tagline">Hey there.<br> I'm <span>Rishav Jadon,</span><br>a front end developer.</h1>
-        </main>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
-    <script>
-        var angle = 340;
 
-function setup(){
-  createCanvas(550,550);
-  background(0);
-}
-
-function draw(){
-  stroke(24);
-  background( 204,201,201);
-  translate(75,height);
-  branch(50,3);
-  translate(50,50);
-  stroke(223,234,30);
-  branch(40,5);
-  translate(100,50);
-  stroke(223,34,30);
-  branch(80,4);
-}
-
-function branch(len,stroked){
-  line(0,0,0,-len);
-  translate(0,-len);
-  strokeWeight(stroked);
-  if( len > 10){
-    push();
-    rotate(angle);
-    branch(len*0.67,stroked*0.67);
-    pop();
-    
-    push();
-    rotate(-angle);
-    branch(len*0.67,stroked*0.67);
-    pop();
-    
-    push();
-    rotate(angle/2);
-    branch(len*0.67,stroked*0.67);
-    pop();
-    
-  }
-}
+    <main class="index">
 
 
 
-    </script>   
+      <h1 class="tagline">Hey there 👋<br> I'm <span>Rishav Jadon,</span><br>a front end developer.</h1>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+  <script>
+
+  </script>
 </body>
+
 </html>
