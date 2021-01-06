@@ -32,15 +32,15 @@
   <script>
     // Don't look here, it's garbage
     function setup() {
-      createCanvas(windowWidth / 2, windowHeight);
+      createCanvas(600, 600);
       background(204, 201, 201);
     }
 
     function draw() {
       let sizeAnimate = 40;
-      translate(windowWidth / 4, windowHeight / 2);
-      for (var i = 0; i < 12; i++) {
-        for (var j = 0; j < 12; j++) {
+      translate(300, 300);
+      for (var i = 0; i < 10; i++) {
+        for (var j = 0; j < 10; j++) {
           rotate(radians(1));
           rotate(frameCount / 5000.0);
           islamic(i * 20, j * 20, sizeAnimate, sizeAnimate);
