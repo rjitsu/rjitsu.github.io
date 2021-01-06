@@ -123,11 +123,14 @@ main.writing p{
 
 main.work{
     display: grid;
-    font-size: 2rem;
-    grid-template-columns: minmax(1em, 1fr) minmax(auto,50ch) minmax(1em, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    font-size: 1rem;
+    grid-template-columns: minmax(1em, 1fr) minmax(auto,90ch) minmax(1em, 1fr);
+    grid-template-rows:minmax(1em, 1fr) repeat(3, 1fr)  minmax(1em, 1fr);
     grid-template-areas: "... desc ...."
-    ".. links .";
+    ".. links1 ."
+    ".. links2 ."
+    ".. links3 .";
+    place-items: center;
 }
 
 .desc{
@@ -135,10 +138,11 @@ main.work{
 }
 .project-card{
     background:lavender;
-    padding:1em;
-    
-    margin:1em;
     transition: box-shadow .5s ease;
+    height:90%;
+    width: 22em;
+    padding: 1em;
+    
 }
 
 .project-card:hover{
@@ -151,14 +155,22 @@ main.work{
 
 .project-card img{
     height:12em;
+    width:20em;
+    object-fit: cover;
 }
 
 .card-link{
     text-decoration: none;
     color: black;
-    grid-area: links;
+    grid-area: links1;
+}
+.two{
+    grid-area: links2;
 }
 
+.three{
+    grid-area: links3;
+}
 /* contact page */
 
 main.contact{
