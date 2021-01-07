@@ -316,6 +316,8 @@ main.index{
     width:35ch;
     margin-bottom:1em ;
 }
-
+.navbar{
+    justify-content: end;
+}
 }
 
