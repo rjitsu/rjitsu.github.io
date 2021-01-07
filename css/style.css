@@ -228,5 +228,9 @@ canvas{
     font-size:1em;
 }
 
+.title a{
+    text-decoration: none;
+}
+
 }
 
