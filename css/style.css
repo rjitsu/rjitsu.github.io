@@ -11,7 +11,7 @@ body{
     margin: 0;
     line-height: 1.5;
     font-size:18px;
-    background: url('/images/bg.svg');
+  
 }
 
 h1,h2,h3,h4,.navbar a{
@@ -95,6 +95,24 @@ main.about{
     font-weight: 600;
 }
 
+.icon-list li svg:hover{
+    fill:#3F51B5;
+    animation:beat .5s ease;
+}
+
+.icon-dev:hover{
+    background-color: #3F51B5;
+    animation:beat .5s ease;
+}
+
+@keyframes beat{
+    from,to{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+}
 /* about page*/
 
 .about-me-text{
