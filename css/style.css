@@ -258,5 +258,16 @@ canvas{
     position: relative;
 }
 
+main.index{
+    display: grid;
+    grid-template-columns: minmax(1em,1fr)  minmax(16ch,auto) minmax(1em,1fr);
+     grid-template-areas: ".... tagline .";
+}
+.tagline{
+    position: static;
+    width: 16ch;
+    grid-area: tagline;
+}
+
 }
 
