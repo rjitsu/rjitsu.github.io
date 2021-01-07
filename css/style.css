@@ -304,8 +304,7 @@ canvas{
 
 main.index{
     display: grid;
-    grid-template-columns: minmax(1em,1fr)  minmax(16ch,auto) minmax(1em,1fr);
-     grid-template-areas: ".... tagline .";
+    place-items: center;
 }
 
 
