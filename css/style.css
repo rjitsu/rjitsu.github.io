@@ -26,6 +26,8 @@ h1,h2,h3,h4,.navbar a{
     display: flex;
     list-style-type: none;    
     justify-content: flex-end;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar a{
@@ -55,9 +57,15 @@ h1,h2,h3,h4,.navbar a{
   position: absolute;
   left:1.2em;
   */
-  background: rgba(130,120,120,15%);
-  padding: .3em;
   font-style: italic;
+  text-decoration: none;
+  color: black;
+  box-shadow: .1em .1em black;    
+  font-size: 1.5em;
+  border: 4px solid;
+  padding:4px;
+  width:9ch;
+  background: blanchedalmond;
 }
 
 main.about{
@@ -127,10 +135,10 @@ main.work{
 .project-card{
     background:lavender;
     transition: box-shadow .5s ease;
-    
     width: 22em;
     padding: 1em;
     margin-bottom: 1em;
+    margin-right:1em;
 }
 
 .project-card:hover{
@@ -214,7 +222,7 @@ canvas{
     flex-direction: column;
 }
 
-.navbar a{
+.navbar a, .title{
     border: none;
     box-shadow: none;
     font-size:1em;
