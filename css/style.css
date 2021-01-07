@@ -175,9 +175,11 @@ main.work{
     background:rgb(86, 10, 185);
     padding: 4px;
     border-radius: 4px;
+    transition: outline .3s ease, background .3s ease;
 }
+
 .skill-list li:hover{
-    outline: thick dashed black;
+    background:rgb(12, 14, 2);
 }
 
 
