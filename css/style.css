@@ -84,9 +84,6 @@ main.about{
     flex-direction: column;
     align-items: flex-end;
     width: 50ch;
-    position: absolute;
-    right:2em;
-    top:5em;
     padding: 1em;
 }
 .tagline span{
