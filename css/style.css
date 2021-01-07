@@ -51,8 +51,10 @@ h1,h2,h3,h4,.navbar a{
 }
 
 .title{
+  /*  
   position: absolute;
   left:1.2em;
+  */
   background: rgba(130,120,120,15%);
   padding: .3em;
   font-style: italic;
