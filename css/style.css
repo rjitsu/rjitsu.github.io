@@ -94,6 +94,7 @@ main.about{
 .about-me-text{
     width: 60ch;
     margin-top:2em;
+    font-size:1.5rem;
 }
 
 .about-me-img{
@@ -112,11 +113,14 @@ main.writing{
 }
 
 main.writing p{
+    margin-top:2rem;
     grid-area: main;
+    font-size: 1.5rem;
 }
 
 .article-list{
     grid-area: links;
+    font-size: 1.5rem;
 }
 
 /* Work Page */
@@ -191,11 +195,12 @@ main.contact{
     display: grid;
     grid-template-columns: minmax(1em, 1fr) minmax(auto,50ch) minmax(1em, 1fr);
     grid-template-areas: "... contact ....";
+    padding-top:2rem;
 }
 
 main.contact > *{
     grid-area: contact;
- 
+    font-size: 1.5rem;
 }
 
 /* painting */
@@ -233,8 +238,7 @@ main.about{
 }
 
 canvas{
-    left: calc(50% - 25vw);
-    top: calc(50% - 50vh);
+    display: none;
 }
 
 .project-list{
