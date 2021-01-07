@@ -85,6 +85,9 @@ main.about{
     align-items: flex-end;
     width: 50ch;
     padding: 1em;
+    position: absolute;
+    right:2em;
+    top:5em;
 }
 .tagline span{
     color:black;
@@ -306,7 +309,9 @@ main.index{
     display: grid;
     place-items: center;
 }
-
+.tagline-card{
+    position: static;
+}
 
 }
 
