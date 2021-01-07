@@ -98,13 +98,13 @@ main.about{
 /* about page*/
 
 .about-me-text{
-    width: 60ch;
     margin-top:2em;
     font-size:1.5rem;
+    margin-right: 2em;
 }
 
 .about-me-img{
-    height: 25em;
+    height: 20em;
     margin:2em;
 }
 
@@ -269,6 +269,7 @@ canvas{
 
     .about-me-text{
         width: 90%;
+        margin-right: 0;
     }
 
     .container-painting{
