@@ -88,6 +88,7 @@ main.about{
     position: absolute;
     right:2em;
     top:5em;
+    border: 2px solid;
 }
 .tagline span{
     color:black;
