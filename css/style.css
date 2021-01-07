@@ -337,5 +337,16 @@ main.index{
 .navbar{
     justify-content: end;
 }
+
+.project-card{
+    width:20em;
+}
+
+
+.project-card img{
+    height:12em;
+    width:18em;
+    object-fit: cover;
+}
 }
 
