@@ -73,17 +73,22 @@ main.about{
 }
 
 .tagline{
-    position: absolute;
-    right: 5em;
-    top:3em;
     font-size:2.5em;
     font-weight: 200;
-    padding:18px;
-    background: lavender;
     letter-spacing: -.2rem;
-    transition: transform .3s ease, box-shadow .3s ease;
 }
 
+.tagline-card{
+    background: #fc0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50ch;
+    position: absolute;
+    right:2em;
+    top:5em;
+    padding: 1em;
+}
 .tagline span{
     color:black;
     font-weight: 600;
@@ -305,11 +310,7 @@ main.index{
     grid-template-columns: minmax(1em,1fr)  minmax(16ch,auto) minmax(1em,1fr);
      grid-template-areas: ".... tagline .";
 }
-.tagline{
-    position: static;
-    width: 16ch;
-    grid-area: tagline;
-}
+
 
 }
 
