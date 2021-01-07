@@ -138,6 +138,7 @@ main.writing{
 }
 
 main.writing p{
+    background: white;
     margin-top:2rem;
     grid-area: main;
     font-size: 1.5rem;
@@ -159,6 +160,7 @@ ul a {
   
 
 .article-list{
+    background: white;
     grid-area: links;
     font-size: 1.5rem;
     margin:1em;
@@ -198,6 +200,9 @@ main.work{
 }
 .work2{
     grid-area: main;
+}
+.resume{
+    background: white;
 }
 
 .project-card{
@@ -267,6 +272,10 @@ main.contact{
 main.contact > *{
     grid-area: contact;
     font-size: 1.5rem;
+}
+
+.contactDiv{
+    background: white;
 }
 
 /* painting */
