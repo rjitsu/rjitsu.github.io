@@ -141,7 +141,7 @@ ul a {
 .article-list{
     grid-area: links;
     font-size: 1.5rem;
-    margin:0;
+    margin:1em;
     padding:0;
 }
 .article-list li{
