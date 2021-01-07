@@ -311,6 +311,7 @@ main.index{
 }
 .tagline-card{
     position: static;
+    width:35ch;
 }
 
 }
