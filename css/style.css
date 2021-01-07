@@ -162,6 +162,25 @@ main.work{
     padding: 0;
 }
 
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    color:white;
+}
+.skill-list li{
+    margin: 4px;
+    width:70%;
+    text-align: center;
+    background:rgb(86, 10, 185);
+    padding: 4px;
+    border-radius: 4px;
+}
+.skill-list li:hover{
+    outline: thick dashed black;
+}
+
+
 .card-link{
     text-decoration: none;
     color: black;
@@ -222,6 +241,7 @@ canvas{
 .project-list{
     flex-direction: column;
 }
+
 
 .navbar a, .title{
     border: none;
