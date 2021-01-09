@@ -104,7 +104,7 @@ main.about{
 }
 
 .icon-dev:hover{
-    background-color: #3F51B5;
+    filter: invert(26%) sepia(74%) saturate(1272%) hue-rotate(210deg) brightness(94%) contrast(91%);
     animation:beat .5s ease;
 }
 
