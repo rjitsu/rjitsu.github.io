@@ -127,7 +127,10 @@ main.about{
 
 .about-me-img{
     height: 20em;
+    width:20em;
+    object-fit: cover;
     margin:2em;
+    border-radius: 50%;
 }
 
 /* writing page */
@@ -295,7 +298,7 @@ canvas{
 @media (max-width:850px){
     .about-me-img{
         height: 15em;
-    
+        width:15em;
     }
 
     .about-me-text{
