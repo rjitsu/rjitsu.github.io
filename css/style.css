@@ -305,7 +305,7 @@ canvas{
         background: white;
         width: 90%;
         margin-right: 0;
-        font-size: 1.2rem;
+        
     }
 
     .container-painting{
@@ -319,6 +319,7 @@ main.about{
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     place-items: center;
+    
 }
 
 canvas{
