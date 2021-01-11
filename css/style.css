@@ -305,6 +305,7 @@ canvas{
         background: white;
         width: 90%;
         margin-right: 0;
+        font-size: 1.2rem;
     }
 
     .container-painting{
@@ -367,3 +368,9 @@ main.index{
 }
 }
 
+@media (max-width:390px){
+    .nav-item{
+        margin:.5em;
+    }
+  
+}
