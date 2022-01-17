@@ -13,3 +13,4 @@ document.addEventListener('mouseleave', (e) => {
   curs.style.left = (x - 22) + "px";
   curs.style.top = (y - 22) + "px";
 });
+console.log("test")
